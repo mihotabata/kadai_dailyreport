@@ -30,7 +30,7 @@ public class EmployeeValidator {
     }
 
     //社員番号
-    private static String validateCode(String code,Boolean codeDuplicateChackFlag){
+    private static String validateCode(String code,Boolean codeDuplicateCheckFlag){
         //必須入力チェック
         if(code==null||code.equals("")){
             return "社員番号を入れてください。";
